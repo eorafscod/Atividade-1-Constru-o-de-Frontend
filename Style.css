@@ -73,14 +73,14 @@ th {
 }
 
 td {
-    background-color: #fff; /* Define a cor de fundo das células de dados */
+    background-color: #e6e6e6; /* Define uma cor de fundo mais escura para as células de dados */
 }
 
 form {
-    background-color: #fff; /* Define a cor de fundo do formulário */
+    background-color: #d3d3d3; /* Define uma cor de fundo mais escura para o formulário */
     padding: 20px; /* Adiciona preenchimento interno ao formulário */
     border-radius: 5px; /* Adiciona bordas arredondadas ao formulário */
-    border: 1px solid #ddd; /* Adiciona uma borda fina ao formulário */
+    border: 1px solid #bbb; /* Adiciona uma borda mais escura ao formulário */
 }
 
 form table {
@@ -96,7 +96,7 @@ input[type="text"], input[type="tel"], input[type="email"], input[type="password
     width: 100%; /* Define a largura dos campos de entrada */
     padding: 8px; /* Adiciona preenchimento interno aos campos de entrada */
     margin-top: 5px; /* Adiciona margem superior aos campos de entrada */
-    border: 1px solid #ddd; /* Adiciona uma borda fina aos campos de entrada */
+    border: 1px solid #bbb; /* Adiciona uma borda mais escura aos campos de entrada */
     border-radius: 4px; /* Adiciona bordas arredondadas aos campos de entrada */
 }
 
