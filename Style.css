@@ -1,122 +1,129 @@
 /* Reset básico */
 body, h1, h2, p, a, table, th, td {
-    margin: 0; /* Remove a margem padrão */
-    padding: 0; /* Remove o preenchimento padrão */
-    border: 0; /* Remove a borda padrão */
-    box-sizing: border-box; /* Inclui bordas e preenchimento no cálculo da largura e altura */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
 }
 
-/* Estilos gerais */
+/* Body */
 body {
-    font-family: Arial, sans-serif; /* Define a fonte padrão */
-    background-color: #f0f8ff; /* Define a cor de fundo */
-    color: #333; /* Define a cor do texto */
-    line-height: 1.6; /* Define a altura da linha */
-    padding: 20px; /* Adiciona preenchimento ao redor da página */
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
 }
 
+/* Header */
 header {
-    background: #ffcccb; /* Define a cor de fundo do cabeçalho */
-    padding: 10px 20px; /* Adiciona preenchimento interno ao cabeçalho */
-    border-radius: 5px; /* Adiciona bordas arredondadas ao cabeçalho */
-    margin-bottom: 20px; /* Adiciona margem inferior ao cabeçalho */
+    background: #ffcccb;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
 
 h1 {
-    font-size: 24px; /* Define o tamanho da fonte do título principal */
-    color: #333; /* Define a cor do texto do título */
+    font-size: 24px;
+    color: #333;
 }
 
+/* Navigation */
 nav a {
-    color: #0066cc; /* Define a cor dos links de navegação */
-    text-decoration: none; /* Remove o sublinhado dos links */
-    padding: 5px 10px; /* Adiciona preenchimento aos links */
+    color: #0066cc;
+    text-decoration: none;
+    padding: 5px 10px;
 }
 
 nav a:hover {
-    text-decoration: underline; /* Adiciona sublinhado aos links ao passar o mouse */
+    text-decoration: underline;
 }
 
+/* Section */
 section {
-    margin-bottom: 20px; /* Adiciona margem inferior às seções */
+    margin-bottom: 20px;
 }
 
+/* Images */
 figure {
-    margin: 0; /* Remove a margem ao redor da figura */
+    margin: 0;
 }
 
 img {
-    max-width: 100%; /* Limita a largura da imagem */
-    height: auto; /* Mantém a proporção da altura da imagem */
-    display: block; /* Remove o espaço em branco abaixo da imagem */
-    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
+/* Table */
 table {
-    width: 100%; /* Define a largura da tabela como 100% */
-    border-collapse: collapse; /* Remove o espaçamento entre bordas das células */
-    margin-top: 20px; /* Adiciona margem superior à tabela */
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
 }
 
 table, th, td {
-    border: 1px solid #ddd; /* Adiciona uma borda fina às tabelas e células */
+    border: 1px solid #ddd;
 }
 
 th, td {
-    padding: 10px; /* Adiciona preenchimento interno às células da tabela */
-    text-align: left; /* Alinha o texto à esquerda nas células */
+    padding: 10px;
+    text-align: left;
 }
 
 th {
-    background-color: #f4a460; /* Define a cor de fundo das células de cabeçalho */
-    color: white; /* Define a cor do texto das células de cabeçalho */
+    background-color: #979797;
+    color: white;
 }
 
 td {
-    background-color: #e6e6e6; /* Define uma cor de fundo mais escura para as células de dados */
+    background-color: #e6e6e6;
 }
 
+/* Formulário */
 form {
-    background-color: #d3d3d3; /* Define uma cor de fundo mais escura para o formulário */
-    padding: 20px; /* Adiciona preenchimento interno ao formulário */
-    border-radius: 5px; /* Adiciona bordas arredondadas ao formulário */
-    border: 1px solid #bbb; /* Adiciona uma borda mais escura ao formulário */
+    background-color: #d3d3d3;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #bbb;
 }
 
 form table {
-    width: 100%; /* Define a largura da tabela dentro do formulário */
-    margin-bottom: 20px; /* Adiciona margem inferior à tabela dentro do formulário */
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 form table td {
-    padding: 10px; /* Adiciona preenchimento interno às células da tabela no formulário */
+    padding: 10px;
 }
 
 input[type="text"], input[type="tel"], input[type="email"], input[type="password"], select, textarea {
-    width: 100%; /* Define a largura dos campos de entrada */
-    padding: 8px; /* Adiciona preenchimento interno aos campos de entrada */
-    margin-top: 5px; /* Adiciona margem superior aos campos de entrada */
-    border: 1px solid #bbb; /* Adiciona uma borda mais escura aos campos de entrada */
-    border-radius: 4px; /* Adiciona bordas arredondadas aos campos de entrada */
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
 }
 
 textarea {
-    resize: vertical; /* Permite redimensionar a área de texto verticalmente */
+    resize: vertical;
 }
 
+/* Buttons */
 .buttons {
-    margin-top: 20px; /* Adiciona margem superior aos botões */
+    margin-top: 20px;
 }
 
 button {
-    background-color: #ffcccb; /* Define a cor de fundo do botão */
-    border: 1px solid #ddd; /* Adiciona uma borda fina ao botão */
-    padding: 10px 20px; /* Adiciona preenchimento interno ao botão */
-    border-radius: 5px; /* Adiciona bordas arredondadas ao botão */
-    cursor: pointer; /* Muda o cursor para uma mão ao passar sobre o botão */
-    margin-right: 10px; /* Adiciona margem direita ao botão */
+    background-color: #ffcccb;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
 }
 
 button:hover {
-    background-color: #f8bcbc; /* Altera a cor de fundo do botão ao passar o mouse */
+    background-color: #f8bcbc;
 }
